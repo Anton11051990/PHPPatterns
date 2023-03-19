@@ -1,0 +1,33 @@
+header {
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 2s;
+}
+
+ul,
+li {
+  padding: 10px 20px;
+  font-weight: bold;
+  white-space: pre;
+}
+
+.HeaderNavLink {
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.header_button {
+  display: none;
+}
